@@ -1,0 +1,26 @@
+.navbar{
+    height:10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: orange;
+}
+
+.navbar a{
+    color:white;
+    text-decoration:none;
+}
+
+.navbar img{
+    height:10vh;
+    transition:0.2s ease-in-out;
+}
+
+.navbar img:hover{
+    transform: scale(1.5);
+}
+
+a.active{
+    font-weight: bold;
+    color:orangered;
+}
